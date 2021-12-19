@@ -20,7 +20,7 @@ class Test(unittest.TestCase):
     def arr(self, n):
         a = []
         for i in range(n):
-            a.append(random.randint(1000000, 10000000))
+            a.append(random.randint(1000001, 10000000))
         return a
 
     def write(self, array, name):

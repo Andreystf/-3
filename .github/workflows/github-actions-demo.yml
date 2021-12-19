@@ -1,3 +1,4 @@
+name: Demo Test
 on:
   workflow_dispatch:
 jobs:
